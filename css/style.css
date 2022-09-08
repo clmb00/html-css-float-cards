@@ -39,10 +39,11 @@ main .intro{
   padding-bottom: 40px;
 }
 
-/* ROW */
+/* BOX*/
 .row .col{
+  float: left;
   height: 100px;
-  width: calc(100% / 3);
+  width: calc( (100% - 60px) / 3 );
   background-color: black;
   box-shadow: 0px 0px 5px black;
   color: white;
@@ -50,11 +51,18 @@ main .intro{
   line-height: 28px;
 }
 
+/* SOLUZIONE TEMPORANEA ALLA SPAZZIATURA */
+.row :nth-child(2).col{
+  margin: 0 30px;
+}
+
+/* IMMAGINE BOX */
 .row .col img{
   float: left;
   height: 100px;
 }
 
+/* DESCRIZIONE BOX */
 .row .col .descr{
   padding-left: 110px;
 }
