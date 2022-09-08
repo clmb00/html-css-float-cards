@@ -40,6 +40,10 @@ main .intro{
 }
 
 /* BOX*/
+.row{
+  margin-bottom: 40px;
+}
+
 .row .col{
   float: left;
   height: 100px;
