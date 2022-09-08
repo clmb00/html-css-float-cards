@@ -13,7 +13,6 @@ body{
   width: 80%;
   max-width: 1200px;
   margin: 0 auto;
-  text-align: center;
   padding-top: 40px;
 }
 
@@ -32,11 +31,14 @@ body{
 /* MAIN */
 h1{
   color: #E53170;
+  text-align: center;
 }
 
 main .intro{
   padding-top: 50px;
   padding-bottom: 40px;
+  text-align: justify;
+  text-align-last: center;
 }
 
 /* BOX*/
